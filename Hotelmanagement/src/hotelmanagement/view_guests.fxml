@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="461.0" prefWidth="813.0" stylesheets="@view_guests.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hotelmanagement.View_guestsController">
+   <children>
+      <TableView fx:id="table" layoutX="-6.0" layoutY="67.0" prefHeight="357.0" prefWidth="788.0">
+        <columns>
+          <TableColumn fx:id="name" prefWidth="91.0" text="Name" />
+          <TableColumn fx:id="age" prefWidth="35.0" text="Age" />
+            <TableColumn fx:id="contact" prefWidth="84.0" text="Contact " />
+            <TableColumn fx:id="email" prefWidth="135.0" text="Email" />
+            <TableColumn fx:id="room_type" prefWidth="108.0" text="Room Type" />
+            <TableColumn fx:id="num" prefWidth="77.0" text="No. of days" />
+            <TableColumn fx:id="check_in" prefWidth="78.0" text="Check In" />
+            <TableColumn fx:id="check_out" prefWidth="81.0" text="Check Out" />
+            <TableColumn fx:id="bid" prefWidth="95.0" text="BookingID" />
+        </columns>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </TableView>
+      <Label layoutX="265.0" layoutY="26.0" text="Checked In - Hotel Guests " underline="true">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

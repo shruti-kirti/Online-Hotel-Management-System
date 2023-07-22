@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hotelmanagement.HomePageController">
+   <children>
+      <AnchorPane />
+      <BorderPane prefHeight="82.0" prefWidth="600.0" style="-fx-background-color: cyan;">
+         <center>
+            <Label prefHeight="43.0" prefWidth="214.0" text="HOME PAGE" textFill="#3e128a" underline="true" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="36.0" />
+               </font>
+            </Label>
+         </center>
+      </BorderPane>
+      <Button fx:id="b1" layoutX="31.0" layoutY="168.0" mnemonicParsing="false" onAction="#handleButtonActionb1" prefHeight="32.0" prefWidth="116.0" text="Room Booking">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="162.0" layoutY="103.0" prefHeight="32.0" prefWidth="276.0" text="Logged in successfully !..." textFill="#b91890">
+         <font>
+            <Font name="Georgia" size="24.0" />
+         </font>
+      </Label>
+      <BorderPane layoutY="329.0" prefHeight="71.0" prefWidth="600.0" style="-fx-background-color: cyan;" />
+      <Button fx:id="b2" layoutX="196.0" layoutY="168.0" mnemonicParsing="false" onAction="#handleButtonActionb2" prefHeight="32.0" prefWidth="79.0" text="Check In">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="b3" layoutX="323.0" layoutY="168.0" mnemonicParsing="false" onAction="#handleButtonActionb3" prefHeight="32.0" prefWidth="79.0" text="Check Out">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="b5" layoutX="167.0" layoutY="244.0" mnemonicParsing="false" onAction="#handleButtonActionb5" text="Add Users">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="b6" layoutX="357.0" layoutY="244.0" mnemonicParsing="false" onAction="#handleButtonActionb6" text="Delete Users">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="b4" layoutX="455.0" layoutY="168.0" mnemonicParsing="false" onAction="#handleButtonActionb4" text="View Guests">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
